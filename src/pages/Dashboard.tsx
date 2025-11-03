@@ -53,7 +53,7 @@ const Dashboard: React.FC = () => {
 
                 <div className="bg-white shadow-md rounded-2xl p-6 text-center">
                     <h2 className="text-xl font-semibold text-gray-700">Pembelian Terbesar</h2>
-                    <p className="text-lg font-bold text-orange-600 mt-2">{kpi.max_payment}</p>
+                    <p className="text-lg font-bold text-green-600 mt-2">Rp {kpi.max_payment}</p>
                 </div>
             </div>
         </div>
