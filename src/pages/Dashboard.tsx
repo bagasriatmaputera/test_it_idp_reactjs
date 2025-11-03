@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
     }, []);
 
     if (!kpi) {
-        return <div className="text-center text-gray-500 p-10">Memuat data dashboard...</div>;
+        return <div className="text-center text-gray-500 p-10">Memuat data dashboard... pastikan laravel sudah berjalan di local anda</div>;
     }
 
     return (
